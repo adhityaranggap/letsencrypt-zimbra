@@ -5,7 +5,7 @@
 
 # letsencrypt-zimbra parameters ============================
 # Email to use for LE registration and to send the notifications
-email="admin@example.com"
+email="admin@zmail.indosterling.com"
 
 # Syslog facility. Default: "local6"
 # Set to "none" if you want to disable syslog logging
@@ -21,9 +21,9 @@ email="admin@example.com"
 # use parantheses
 #
 # example: one CN
-common_names=( "example.com" )
+common_names=( "zmail.indosterling.com" )
 # example: several CNs
-#common_names=( "example.com" "mail.example.com" "example.cz" )
+#common_names=( "zmail.indosterling.com" "zmail.indosterling.com" "example.cz" )
 
 # letsencrypt tool =========================================
 letsencrypt="/usr/bin/certbot"
